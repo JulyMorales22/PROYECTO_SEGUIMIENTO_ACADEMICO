@@ -8,7 +8,7 @@ namespace SeguimientoAcademico.App.Consola
     class Program
     {
 
-        private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
+        private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante();
         static void Main(string[] args)
         {
             Console.WriteLine("PRUEBA CRUD");

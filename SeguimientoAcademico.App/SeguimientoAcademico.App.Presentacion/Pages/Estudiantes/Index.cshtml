@@ -1,0 +1,28 @@
+﻿@page
+@model SeguimientoAcademico.App.Presentacion.Pages.Estudiantes.IndexModel
+@{
+}
+<h1>Lista de Estudiantes</h1>
+
+<table class = "table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Ciudad</th>
+        </tr>
+    </thead>
+   
+@foreach (var p in Model.estudiantes)
+    {
+        <tr>
+            <td>@p.Nombre</td>
+            <td>@p.Apellido</td>
+            <td>@p.Telefono</td>
+            <td>@p.Genero</td>
+            <td>@p.Ciudad</td>
+        </tr>
+    }
+</table>

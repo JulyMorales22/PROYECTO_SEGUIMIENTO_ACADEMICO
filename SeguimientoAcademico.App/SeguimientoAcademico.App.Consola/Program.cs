@@ -12,23 +12,23 @@ namespace SeguimientoAcademico.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("PRUEBA CRUD");
-           // AddEstudiante();
-           BuscarEstudiante(1);
+           AddEstudiante();
+           //BuscarEstudiante(1);
         }
 
         private static void AddEstudiante(){
             var estudiante = new Estudiante
             { 
-                Nombre="July",
-                Apellido="Morales",
-                Telefono="3583862",
-                Genero=Genero.femenino,
-                Direccion="cra 13",
+                Nombre="Jimmy",
+                Apellido="Sarmiento",
+                Telefono="8631467",
+                Genero=Genero.masculino,
+                Direccion="call 18",
                 Latitud=18.92F,
                 Longitud=-89.009F,
-                Ciudad="Caucasia",
+                Ciudad="Cucuta",
                 MateriasInscritas="Matematicas",
-                Grado="6"
+                Grado="9"
 
             };
             _repoEstudiante.AddEstudiante(estudiante);

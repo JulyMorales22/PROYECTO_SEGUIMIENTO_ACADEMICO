@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6o6j0GkxuXXV/LZIf16hYWv9TE5Ljas0CadCSW0eDH4Lkt5vXVPmoxmdjb8kUHsQEv5HXcamM6XC6BF3WE9jLw==",
+  "dgSpecHash": "rxKOMSYJ715QinvB/Zv1FmzE/zfMPlnVCk/IE/dOzDe3kJ1T/lpR2vb+bwNX6Zj0DvB6xI7GNXe24OoJjuWlxQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Hp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\JIMMY SARMIENTO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\JIMMY SARMIENTO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

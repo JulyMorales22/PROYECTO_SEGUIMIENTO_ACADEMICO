@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+    "C:\\Users\\JIMMY SARMIENTO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\SeguimientoAcademico.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\SeguimientoAcademico.App.Consola.csproj",
       "projectName": "SeguimientoAcademico.App.Consola",
-      "projectPath": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\SeguimientoAcademico.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\obj\\",
+      "projectPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\SeguimientoAcademico.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\JIMMY SARMIENTO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JIMMY SARMIENTO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj": {
-              "projectPath": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj"
+            "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj"
             },
-            "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Persistencia\\SeguimientoAcademico.App.Persistencia.csproj": {
-              "projectPath": "C:\\ProyectoSeguimiento\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Persistencia\\SeguimientoAcademico.App.Persistencia.csproj"
+            "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Persistencia\\SeguimientoAcademico.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Persistencia\\SeguimientoAcademico.App.Persistencia.csproj"
             }
           }
         }
@@ -5860,7 +5860,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

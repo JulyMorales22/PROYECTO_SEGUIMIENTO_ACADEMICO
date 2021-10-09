@@ -12,7 +12,7 @@ namespace SeguimientoAcademico.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("PRUEBA CRUD");
-           AddEstudiante();
+           //AddEstudiante();
            //BuscarEstudiante(1);
         }
 

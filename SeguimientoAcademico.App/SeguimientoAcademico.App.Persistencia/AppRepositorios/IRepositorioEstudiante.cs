@@ -16,7 +16,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
     void DeleteEstudiante(int IdEstudiante);
 
     Estudiante GetEstudiante(int IdEstudiante);
-    void AddSugerencia_o_tareas(Sugerencia sugerencia, int IdEstudiante);
+    //void AddSugerencia_o_tareas(Sugerencia sugerencia, int IdEstudiante);
 
 
     }

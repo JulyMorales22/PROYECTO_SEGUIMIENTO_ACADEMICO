@@ -16,25 +16,101 @@
 
     <header>
         
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+<!--      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Seguimiento Academico</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index" aling="left">Seguimiento Academico</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-expanded="false" aria-label="Toggle navigation" justify>
                     <span class="navbar-toggler-icon"></span>
                 </button>
+-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      Seguimiento Academico
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
 
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Index">HOME</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li><li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estudiantes/Index">ESTUDIANTES</a>
-                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                DOCENTE
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">Listar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Agregar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Modificar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Eliminar</a>
+                        </div>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                TUTOR
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">Listar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Agregar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Modificar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Eliminar</a>
+                        </div>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ESTUDIANTE
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">Listar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Agregar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Modificar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Eliminar</a>
+                        </div>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ACUDIENTE
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#">Listar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Agregar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Modificar</a>
+                                    <div class="dropdown-divider"></div>
+
+                                    <a class="dropdown-item" href="#">Eliminar</a>
+                        </div>
+
 
                     </ul>
                 </div>

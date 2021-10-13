@@ -27,7 +27,7 @@ namespace SeguimientoAcademico.App.Consola
                 Latitud=18.92F,
                 Longitud=-89.009F,
                 Ciudad="Cucuta",
-                MateriasInscritas="Matematicas",
+                //MateriasInscritas="Matematicas",
                 Grado="9"
 
             };

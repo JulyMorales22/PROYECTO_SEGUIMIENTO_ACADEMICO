@@ -27,7 +27,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
             
             {
                SugerenciaEncontrada.Descripcion=sugerencia.Descripcion;
-               SugerenciaEncontrada.Tipo=sugerencia.Tipo;
+               
                
                
                

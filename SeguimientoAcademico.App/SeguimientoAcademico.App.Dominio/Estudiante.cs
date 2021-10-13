@@ -5,7 +5,7 @@ namespace SeguimientoAcademico.App.Dominio
 {
     public class Estudiante:Persona
     {
-        public string MateriasInscritas{get;set;}
+        public List<Materia> MateriasInscritas{get;set;}
         public string Grado{get;set;}
         public string Direccion{get;set;}
         public float Latitud {get;set;}
@@ -14,6 +14,6 @@ namespace SeguimientoAcademico.App.Dominio
         public FamiliarDesignado Familiar {get;set;}
         public List<Maestro> Maestro {get; set;}
         public Tutor Tutor {get;set;}
-        public Historia Historia {get;set;}
+        public List<Historia> Historia {get;set;}
     }
 }

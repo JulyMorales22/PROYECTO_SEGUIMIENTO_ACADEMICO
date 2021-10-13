@@ -10,36 +10,23 @@ using SeguimientoAcademico.App.Persistencia.AppRepositorios;
 
 namespace SeguimientoAcademico.App.Presentacion.Pages
 {
-    public class ActualizarModel : PageModel
+    public class CrearModel : PageModel
     {
         private readonly IRepositorioEstudiante _repoEstudiante;
-        [BindProperty]
+         [BindProperty]
         public Estudiante estudiante{get;set;}
 
-        public ActualizarModel(IRepositorioEstudiante _repoEstudiante)
+        public CrearModel(IRepositorioEstudiante _repoEstudiante)
         {
             this._repoEstudiante = _repoEstudiante;
         }
-
-        public IActionResult OnGet(int id)
+        public void OnGet()
         {
-            estudiante=_repoEstudiante.GetEstudiante(id);
-            if(estudiante!=null)
-            {
-                return Page();
-            }
-            else
-            {
-                return NotFound();
-            }
         }
-
-        public IActionResult OnPost()
+         public IActionResult OnPost()
         {
-            estudiante=_repoEstudiante.UpdateEstudiante(estudiante);
-             return RedirectToPage("/Estudiantes/Index");
+            _repoEstudiante.AddEstudiante(estudiante);
+            return RedirectToPage("/Estudiantes/Index");
         }
-
-
     }
 }

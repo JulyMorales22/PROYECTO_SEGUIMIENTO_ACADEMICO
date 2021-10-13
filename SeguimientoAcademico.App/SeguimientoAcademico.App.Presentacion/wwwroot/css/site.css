@@ -35,6 +35,11 @@ html {
   }
 }
 
+.tbn-ico{
+  border-bottom: #0c2f57;
+
+}
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -74,4 +79,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+}
+
+.scroll{
+ 
+  height:900px;;
+  width:100%;
 }

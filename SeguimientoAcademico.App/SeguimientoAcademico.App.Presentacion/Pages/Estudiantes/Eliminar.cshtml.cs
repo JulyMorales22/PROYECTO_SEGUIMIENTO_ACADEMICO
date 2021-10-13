@@ -10,13 +10,14 @@ using SeguimientoAcademico.App.Persistencia.AppRepositorios;
 
 namespace SeguimientoAcademico.App.Presentacion.Pages
 {
-    public class ActualizarModel : PageModel
+    public class EliminarModel : PageModel
     {
+
         private readonly IRepositorioEstudiante _repoEstudiante;
         [BindProperty]
         public Estudiante estudiante{get;set;}
 
-        public ActualizarModel(IRepositorioEstudiante _repoEstudiante)
+        public EliminarModel(IRepositorioEstudiante _repoEstudiante)
         {
             this._repoEstudiante = _repoEstudiante;
         }
@@ -36,10 +37,8 @@ namespace SeguimientoAcademico.App.Presentacion.Pages
 
         public IActionResult OnPost()
         {
-            estudiante=_repoEstudiante.UpdateEstudiante(estudiante);
+            _repoEstudiante.DeleteEstudiante(estudiante.Id);
              return RedirectToPage("/Estudiantes/Index");
         }
-
-
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace SeguimientoAcademico.App.Dominio
 {
@@ -11,7 +12,7 @@ namespace SeguimientoAcademico.App.Dominio
         public float Longitud {get;set;}
         public string Ciudad{get;set;}
         public FamiliarDesignado Familiar {get;set;}
-        public Maestro Maestro {get; set;}
+        public List<Maestro> Maestro {get; set;}
         public Tutor Tutor {get;set;}
         public Historia Historia {get;set;}
     }

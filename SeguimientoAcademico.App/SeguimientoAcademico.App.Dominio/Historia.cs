@@ -9,7 +9,8 @@ namespace SeguimientoAcademico.App.Dominio
         public int Calificacion {get;set;}
         public int Id_Maestro {get;set;}
         public string Estado {get;set;}
-        public Sugerencia Sugerencia {get;set;}
+        public List<Sugerencia> Sugerencia {get;set;}
+        
     
     }
 }

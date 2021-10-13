@@ -8,7 +8,7 @@ namespace SeguimientoAcademico.App.Dominio
         public int Id {get;set;}
         public string Tarea {get;set;}
         public int Calificacion {get;set;}
-        public int Id_Maestro {get;set;}
+        public Maestro Maestro {get;set;}
         public string Estado {get;set;}
         public List<Sugerencia> Sugerencia {get;set;}
         

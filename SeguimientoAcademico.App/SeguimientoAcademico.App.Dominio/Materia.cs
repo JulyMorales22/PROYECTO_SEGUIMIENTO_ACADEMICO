@@ -1,13 +1,11 @@
 namespace SeguimientoAcademico.App.Dominio
 {
-    public enum Materia
+    public class Materia
     {
-        Matematicas,
-        Español,
-        Ingles,
-        Religion,
-        Sociales,
-        Ciencias
-        
+        public int Id {get;set;}
+        public string NombreMateria {get;set;}
+        public string CargaHoraria{get;set;}
+        public Maestro Maestro{get;set;}
+        public Tutor Tutor{get;set;}
     }
 }

@@ -8,10 +8,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioMaestro : IRepositorioMaestro
     {
-         private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioMaestro(SeguimientoAcademico.App.Persistencia.AppContext appContext){
-        _appContext=appContext;
-        }
+         private readonly AppContext _appContext = new AppContext();
+      
         
 
         Maestro IRepositorioMaestro.AddMaestro(Maestro maestro){
@@ -30,7 +28,9 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
                maestroEncontrado.Apellido=maestro.Apellido;
                maestroEncontrado.Telefono=maestro.Telefono;
                maestroEncontrado.Genero=maestro.Genero;
-               maestroEncontrado.MateriaAsignada=maestro.MateriaAsignada;
+               maestroEncontrado.LicenciaProfesional=maestro.LicenciaProfesional;
+               maestroEncontrado.Especialidad=maestro.Especialidad;
+               
 
                _appContext.SaveChanges();
             }return maestroEncontrado;

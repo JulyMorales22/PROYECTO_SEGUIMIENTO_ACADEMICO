@@ -9,11 +9,13 @@ namespace SeguimientoAcademico.App.Consola
     {
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante();
+        private static IRepositorioMaestro _repoMaestro = new RepositorioMaestro();
         static void Main(string[] args)
         {
             Console.WriteLine("PRUEBA CRUD");
            //AddEstudiante();
            //BuscarEstudiante(1);
+           AddMaestro();
         }
 
         private static void AddEstudiante(){
@@ -33,6 +35,21 @@ namespace SeguimientoAcademico.App.Consola
             };
             _repoEstudiante.AddEstudiante(estudiante);
 
+        }
+        
+        private static void AddMaestro(){
+            var maestro = new Maestro{
+
+                Nombre ="Diana",
+                Apellido="Mairin",
+                Telefono="582697",
+                Genero =Genero.femenino,
+                LicenciaProfesional="2584698",
+                Especialidad="Ingeniera"
+                
+
+            };
+            _repoMaestro.AddMaestro(maestro);
         }
         
         private static void BuscarEstudiante(int idEstudiante)

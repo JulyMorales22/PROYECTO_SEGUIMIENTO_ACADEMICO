@@ -6,6 +6,6 @@ namespace SeguimientoAcademico.App.Dominio
     {
         public string LicenciaProfesional {get;set;}
         public string Especialidad {get;set;}
-        public string MateriaAsignada {get;set;}
+        
     }
 }

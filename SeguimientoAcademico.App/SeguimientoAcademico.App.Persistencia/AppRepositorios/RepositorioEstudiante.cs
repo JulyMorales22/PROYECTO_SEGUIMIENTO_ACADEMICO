@@ -33,8 +33,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
                estudianteEncontrado.Longitud=estudiante.Longitud;
                estudianteEncontrado.Ciudad=estudiante.Ciudad;
                estudianteEncontrado.Familiar=estudiante.Familiar;
-               estudianteEncontrado.Maestro=estudiante.Maestro;
-               estudianteEncontrado.Tutor=estudiante.Tutor;
+               
                estudianteEncontrado.Historia=estudiante.Historia;
 
                _appContext.SaveChanges();

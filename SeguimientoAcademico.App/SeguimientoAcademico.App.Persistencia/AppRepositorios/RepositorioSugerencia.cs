@@ -8,10 +8,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioSugerencia : IRepositorioSugerencia
     {
-        private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioSugerencia(SeguimientoAcademico.App.Persistencia.AppContext appContext){
-        _appContext=appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+       
         
 
         Sugerencia IRepositorioSugerencia.AddSugerencia(Sugerencia sugerencia){

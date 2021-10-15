@@ -8,10 +8,10 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioPersona :IRepositorioPersona
     {
-        private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioPersona(SeguimientoAcademico.App.Persistencia.AppContext appContext){
+        private readonly /*SeguimientoAcademico.App.Persistencia.*/AppContext _appContext = new AppContext();
+       /* public RepositorioPersona(SeguimientoAcademico.App.Persistencia.AppContext appContext){
         _appContext=appContext;
-        }
+        }*/
 
         Persona IRepositorioPersona.AddPersona(Persona persona){
            var personaAdicionada = _appContext.Personas.Add(persona);

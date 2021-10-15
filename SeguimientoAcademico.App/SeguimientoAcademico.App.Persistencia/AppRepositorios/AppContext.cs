@@ -13,6 +13,7 @@ namespace SeguimientoAcademico.App.Persistencia
         public DbSet <Tutor> Tutores {get;set;}  
         public DbSet <Historia> Historias {get;set;}
         public DbSet <Sugerencia> Sugerencias {get;set;}   
+        public DbSet <Materia> Materias {get;set;}
         
          protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder) {
 

@@ -7,10 +7,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioFamiliarDesignado : IRepositorioFamiliarDesignado
     {
-        private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioFamiliarDesignado(SeguimientoAcademico.App.Persistencia.AppContext appContext){
-        _appContext=appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         
 
         FamiliarDesignado IRepositorioFamiliarDesignado.AddFamiliarDesignado(FamiliarDesignado familiarDesignado){

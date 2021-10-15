@@ -9,10 +9,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioTutor : IRepositorioTutor
     {
-        private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioTutor(SeguimientoAcademico.App.Persistencia.AppContext appContext){
-        _appContext=appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         
 
         Tutor IRepositorioTutor.AddTutor(Tutor tutor){

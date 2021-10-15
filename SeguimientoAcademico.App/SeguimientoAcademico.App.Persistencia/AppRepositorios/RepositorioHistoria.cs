@@ -8,10 +8,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 {
     public class RepositorioHistoria :IRepositorioHistoria
     {
-        private readonly SeguimientoAcademico.App.Persistencia.AppContext _appContext;
-        public RepositorioHistoria(SeguimientoAcademico.App.Persistencia.AppContext appContext){
-        _appContext=appContext;
-        }
+        private readonly AppContext _appContext = new AppContext();
+        
         
 
         Historia IRepositorioHistoria.AddHistoria(Historia historia){
@@ -28,7 +26,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
             {
                HistoriaEncontrada.Tarea=historia.Tarea;
                HistoriaEncontrada.Calificacion=historia.Calificacion;
-               HistoriaEncontrada.Id_Maestro=historia.Id_Maestro;
+               HistoriaEncontrada.Maestro=historia.Maestro;
                HistoriaEncontrada.Estado=historia.Estado;
                HistoriaEncontrada.Sugerencia=historia.Sugerencia;
                

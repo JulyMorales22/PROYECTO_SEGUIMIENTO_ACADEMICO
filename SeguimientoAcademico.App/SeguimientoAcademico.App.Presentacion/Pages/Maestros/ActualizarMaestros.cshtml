@@ -1,0 +1,51 @@
+﻿@page
+@using SeguimientoAcademico.App.Dominio
+@model SeguimientoAcademico.App.Presentacion.Pages.ActualizarMaestrosModel
+@{
+}
+
+<h1>Modificacion de Maestros</h1>
+
+<form method="post">
+
+    
+    <div class="form-group">
+    <label asp-for="maestro.Id"></label>
+    <input asp-for="maestro.Id" class="form-control" readonly>
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.Nombre"></label>
+    <input asp-for="maestro.Nombre" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.Apellido"></label>
+    <input asp-for="maestro.Apellido" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.Telefono"></label>
+    <input asp-for="maestro.Telefono" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.Genero"></label>
+    <select asp-for="maestro.Genero" asp-items="Html.GetEnumSelectList<Genero>()"class=form-control></select>
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.LicenciaProfesional"></label>
+    <input asp-for="maestro.LicenciaProfesional" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="maestro.Especialidad"></label>
+    <input asp-for="maestro.Especialidad" class="form-control" required="requiered">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary" >Actualizar</button>
+    
+
+</form>

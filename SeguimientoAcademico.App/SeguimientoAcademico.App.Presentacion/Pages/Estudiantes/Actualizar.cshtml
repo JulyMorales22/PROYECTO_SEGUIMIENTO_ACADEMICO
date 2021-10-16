@@ -1,4 +1,5 @@
 ﻿@page
+@using SeguimientoAcademico.App.Dominio
 @model SeguimientoAcademico.App.Presentacion.Pages.ActualizarModel
 @{
 }
@@ -30,7 +31,7 @@
 
     <div class="form-group">
     <label asp-for="estudiante.Genero"></label>
-    <input asp-for="estudiante.Genero" class="form-control" required="requiered">
+    <select asp-for="estudiante.Genero" asp-items="Html.GetEnumSelectList<Genero>()"class=form-control ></select>
     </div>
 
     <div class="form-group">

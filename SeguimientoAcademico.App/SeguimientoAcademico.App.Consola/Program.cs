@@ -10,12 +10,16 @@ namespace SeguimientoAcademico.App.Consola
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante();
         private static IRepositorioMaestro _repoMaestro = new RepositorioMaestro();
+        private static IRepositorioTutor _repoTutor = new RepositorioTutor();
+        private static IRepositorioFamiliarDesignado _repoFamiliarDesignado = new RepositorioFamiliarDesignado();
         static void Main(string[] args)
         {
             Console.WriteLine("PRUEBA CRUD");
            //AddEstudiante();
            //BuscarEstudiante(1);
-           AddMaestro();
+           //AddMaestro();
+           //AddTutor();
+           AddFamiliarDesignado();
         }
 
         private static void AddEstudiante(){
@@ -51,6 +55,38 @@ namespace SeguimientoAcademico.App.Consola
             };
             _repoMaestro.AddMaestro(maestro);
         }
+
+         private static void AddTutor(){
+            var tutor = new Tutor{
+
+                Nombre ="Fernando",
+                Apellido="Mendez",
+                Telefono="652878",
+                Genero =Genero.masculino,
+                MateriaAsignada="Ingles"
+                
+                
+
+            };
+            _repoTutor.AddTutor(tutor);
+        }
+
+        private static void AddFamiliarDesignado(){
+            var familiarDesignado = new FamiliarDesignado{
+
+                Nombre ="Albeiro",
+                Apellido="Morales",
+                Telefono="310456789",
+                Genero =Genero.masculino,
+                Parentesco="Padre"
+                
+                
+
+            };
+            _repoFamiliarDesignado.AddFamiliarDesignado(familiarDesignado);
+        }
+
+
         
         private static void BuscarEstudiante(int idEstudiante)
         {

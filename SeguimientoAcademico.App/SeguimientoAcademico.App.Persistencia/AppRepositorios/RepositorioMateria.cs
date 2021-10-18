@@ -23,8 +23,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
             {
                materiaEncontrada.NombreMateria=materia.NombreMateria;
                materiaEncontrada.CargaHoraria=materia.CargaHoraria;
-               materiaEncontrada.Maestro=materia.Maestro;
-               materiaEncontrada.Tutor=materia.Tutor;
+               
 
                _appContext.SaveChanges();
             }return materiaEncontrada;

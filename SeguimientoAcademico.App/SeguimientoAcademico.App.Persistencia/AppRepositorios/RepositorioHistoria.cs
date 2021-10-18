@@ -26,9 +26,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
             {
                HistoriaEncontrada.Tarea=historia.Tarea;
                HistoriaEncontrada.Calificacion=historia.Calificacion;
-               HistoriaEncontrada.Maestro=historia.Maestro;
                HistoriaEncontrada.Estado=historia.Estado;
-               HistoriaEncontrada.Sugerencia=historia.Sugerencia;
+               
                
                
                _appContext.SaveChanges();

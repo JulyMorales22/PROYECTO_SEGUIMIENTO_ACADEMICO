@@ -32,9 +32,7 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
                estudianteEncontrado.Latitud=estudiante.Latitud;
                estudianteEncontrado.Longitud=estudiante.Longitud;
                estudianteEncontrado.Ciudad=estudiante.Ciudad;
-               estudianteEncontrado.Familiar=estudiante.Familiar;
                
-               estudianteEncontrado.Historia=estudiante.Historia;
 
                _appContext.SaveChanges();
             }return estudianteEncontrado;
@@ -59,6 +57,38 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 
         IEnumerable<Estudiante> IRepositorioEstudiante.GetAllEstudiante(){
             return _appContext.Estudiantes;
+        }
+
+        void IRepositorioEstudiante.AddHistoria(int IdEstudiante, Historia historia){
+            var estudiante= _appContext.Estudiantes.Find(IdEstudiante);
+            if(estudiante!=null){
+                if(estudiante.Historia!=null){
+                    estudiante.Historia.Add(historia);
+                }
+                else{
+                    estudiante.Historia = new List<Historia>();
+                    estudiante.Historia.Add(historia);
+                }
+            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(p => p.Id ==  estudiante.Id);
+            if (estudianteEncontrado!=null)
+            
+            {
+               estudianteEncontrado.Nombre=estudiante.Nombre;
+               estudianteEncontrado.Apellido=estudiante.Apellido;
+               estudianteEncontrado.Telefono=estudiante.Telefono;
+               estudianteEncontrado.Genero=estudiante.Genero;
+               estudianteEncontrado.MateriasInscritas=estudiante.MateriasInscritas;
+               estudianteEncontrado.Grado=estudiante.Grado;
+               estudianteEncontrado.Direccion=estudiante.Direccion;
+               estudianteEncontrado.Latitud=estudiante.Latitud;
+               estudianteEncontrado.Longitud=estudiante.Longitud;
+               estudianteEncontrado.Ciudad=estudiante.Ciudad;
+              
+
+               _appContext.SaveChanges();
+            }
+
+        }
         }
     }
 }

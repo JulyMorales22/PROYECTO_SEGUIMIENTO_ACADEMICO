@@ -7275,16 +7275,19 @@
       "outputPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JIMMY SARMIENTO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JIMMY SARMIENTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
             "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj": {
               "projectPath": "C:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Dominio\\SeguimientoAcademico.App.Dominio.csproj"
@@ -7300,6 +7303,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7337,7 +7341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

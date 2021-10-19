@@ -14,7 +14,7 @@ namespace SeguimientoAcademico.App.Presentacion.Pages
     {
         private readonly IRepositorioEstudiante _repoEstudiante;
         [BindProperty]
-        public Estudiante estudiante{get;set;}
+        public Estudiante estudiante { get; set; }
 
         public ActualizarModel(IRepositorioEstudiante _repoEstudiante)
         {
@@ -23,8 +23,8 @@ namespace SeguimientoAcademico.App.Presentacion.Pages
 
         public IActionResult OnGet(int id)
         {
-            estudiante=_repoEstudiante.GetEstudiante(id);
-            if(estudiante!=null)
+            estudiante = _repoEstudiante.GetEstudiante(id);
+            if (estudiante != null)
             {
                 return Page();
             }
@@ -36,8 +36,8 @@ namespace SeguimientoAcademico.App.Presentacion.Pages
 
         public IActionResult OnPost()
         {
-            estudiante=_repoEstudiante.UpdateEstudiante(estudiante);
-             return RedirectToPage("/Estudiantes/Index");
+            estudiante = _repoEstudiante.UpdateEstudiante(estudiante);
+            return RedirectToPage("/Estudiantes/Index");
         }
 
 

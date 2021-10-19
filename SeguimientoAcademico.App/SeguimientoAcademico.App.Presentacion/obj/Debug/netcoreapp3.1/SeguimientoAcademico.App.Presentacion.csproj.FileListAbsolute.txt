@@ -82,7 +82,6 @@ C:\ProyectoSeguimiento\SeguimientoAcademico.App\SeguimientoAcademico.App.Present
 C:\ProyectoSeguimiento\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Dominio.pdb
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.exe
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.deps.json
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.runtimeconfig.json
@@ -135,7 +134,6 @@ C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\Seguimi
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Persistencia.dll
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Persistencia.pdb
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoAcademico.App.Dominio.pdb
-C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.csprojAssemblyReference.cache
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.AssemblyInfoInputs.cache
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.AssemblyInfo.cs
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.csproj.CoreCompileInputs.cache
@@ -162,3 +160,19 @@ C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\Seguimi
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.dll
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.pdb
 C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.genruntimeconfig.cache
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.csproj.AssemblyReference.cache
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\SeguimientoAcademico.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\scopedcss\bundle\SeguimientoAcademico.App.Presentacion.styles.css
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\Actualizar.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\Crear.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\Eliminar.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\RegistrarActividad.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\ActualizarMaestros.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\CrearMaestros.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\EliminarMaestros.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\IndexMaestros.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tutor\ActualizarTutor.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tutor\CrearTutor.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tutor\EliminarTutor.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tutor\IndexTutor.cshtml.g.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\AsignarFamiliar.cshtml.g.cs

@@ -2,14 +2,15 @@
 @model SeguimientoAcademico.App.Presentacion.Pages.Estudiantes.IndexModel
 @{
 }
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 
-<h1>Lista de Estudiantes</h1>
+<h1>Estudiantes</h1>
 
-<table class = "table">
+<table class="table">
     <thead>
         <tr>
             <th scope="col">Nombre</th>
@@ -17,12 +18,12 @@
             <th scope="col">Telefono</th>
             <th scope="col">Genero</th>
             <th scope="col">Ciudad</th>
-             <th scope="col">Acciones</th>
+            <th scope="col">Acciones</th>
 
         </tr>
     </thead>
-   
-@foreach (var p in Model.estudiantes)
+
+    @foreach (var p in Model.estudiantes)
     {
         <tr>
             <td>@p.Nombre</td>
@@ -31,12 +32,20 @@
             <td>@p.Genero</td>
             <td>@p.Ciudad</td>
             <td>
-                <div> 
-                     <a class="btn fas fa-edit" asp-page = "/Estudiantes/Actualizar" asp-route-id="@p.Id">  </a>
-                     <a class="btn far fa-trash-alt	" asp-page = "/Estudiantes/Eliminar" asp-route-id="@p.Id">  </a>
+                <div>
+                    <a class="btn fas fa-edit" asp-page="/Estudiantes/Actualizar" title="Actualizar Datos"
+                    asp-route-id="@p.Id"> </a>
+                    <a class="btn far fa-trash-alt	" asp-page="/Estudiantes/Eliminar" title="Eliminar Estudiante"
+                    asp-route-id="@p.Id"> </a>
+                    <a class="btn fas fa-plus" asp-page="/Estudiantes/RegistrarActividad" title="Registrar Actividad"
+                    asp-route-id="@p.Id"> </a>
+                    <a class="btn fas fa-book-reader" asp-page="/Estudiantes/AsignarFamiliar" title="Familiar Designado"
+                    asp-route-id="@p.Id"> </a>
                 </div>
             </td>
         </tr>
     }
 </table>
-<i class="fa-solid fa-square-pen"></i>
+
+
+<H1><a class="btn fas fa-plus" asp-page="/Estudiantes/Crear" title="Agregar Nuevo Estudiante"> AGREGAR NUEVO ESTUDIANTE</a></H1>

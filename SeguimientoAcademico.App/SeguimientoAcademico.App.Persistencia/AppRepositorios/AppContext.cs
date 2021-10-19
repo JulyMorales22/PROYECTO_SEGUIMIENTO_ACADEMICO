@@ -8,7 +8,7 @@ namespace SeguimientoAcademico.App.Persistencia
     {
         public DbSet <Persona> Personas {get;set;}
         public DbSet <Estudiante> Estudiantes {get;set;}
-        public DbSet <FamiliarDesignado> FamiliarDesignado {get;set;}
+        
         public DbSet <Maestro> Maestros {get;set;}
         public DbSet <Tutor> Tutores {get;set;}  
         public DbSet <Historia> Historias {get;set;}

@@ -18,6 +18,12 @@ a {
   border-color: #1861ac;
 }
 
+.btn-secundary {
+  color: rgb(16, 65, 36);
+  background-color: #adeb4a;
+  border-color: #adeb4a;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;

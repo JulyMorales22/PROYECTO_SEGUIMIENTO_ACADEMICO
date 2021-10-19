@@ -10,8 +10,8 @@ using SeguimientoAcademico.App.Persistencia;
 namespace SeguimientoAcademico.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211006131102_inicial")]
-    partial class inicial
+    [Migration("20211019164937_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -34,10 +34,10 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Id_Maestro")
+                    b.Property<int?>("EstudianteId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SugerenciaId")
+                    b.Property<int>("IdMaestro")
                         .HasColumnType("int");
 
                     b.Property<string>("Tarea")
@@ -45,9 +45,38 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SugerenciaId");
+                    b.HasIndex("EstudianteId");
 
                     b.ToTable("Historias");
+                });
+
+            modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Materia", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("CargaHoraria")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdMaestro")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdTutor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NombreMateria")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EstudianteId");
+
+                    b.ToTable("Materias");
                 });
 
             modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Persona", b =>
@@ -90,10 +119,12 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Tipo")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("HistoriaId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("HistoriaId");
 
                     b.ToTable("Sugerencias");
                 });
@@ -108,14 +139,8 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("FamiliarId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Grado")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("HistoriaId")
-                        .HasColumnType("int");
 
                     b.Property<float>("Latitud")
                         .HasColumnType("real");
@@ -123,41 +148,26 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
                     b.Property<float>("Longitud")
                         .HasColumnType("real");
 
-                    b.Property<int?>("MaestroId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("MateriasInscritas")
+                    b.Property<string>("NombreFamiliar")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("TutorId")
-                        .HasColumnType("int");
+                    b.Property<string>("ParentescoFamiliar")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("FamiliarId");
-
-                    b.HasIndex("HistoriaId");
-
-                    b.HasIndex("MaestroId");
-
-                    b.HasIndex("TutorId");
+                    b.Property<string>("TelefonoFamiliar")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Estudiante");
-                });
-
-            modelBuilder.Entity("SeguimientoAcademico.App.Dominio.FamiliarDesignado", b =>
-                {
-                    b.HasBaseType("SeguimientoAcademico.App.Dominio.Persona");
-
-                    b.Property<string>("Parentesco")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasDiscriminator().HasValue("FamiliarDesignado");
                 });
 
             modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Maestro", b =>
                 {
                     b.HasBaseType("SeguimientoAcademico.App.Dominio.Persona");
 
-                    b.Property<string>("MateriaAsignada")
+                    b.Property<string>("Especialidad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LicenciaProfesional")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Maestro");
@@ -168,46 +178,42 @@ namespace SeguimientoAcademico.App.Persistencia.Migrations
                     b.HasBaseType("SeguimientoAcademico.App.Dominio.Persona");
 
                     b.Property<string>("MateriaAsignada")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Tutor_MateriaAsignada");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("Tutor");
                 });
 
             modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Historia", b =>
                 {
-                    b.HasOne("SeguimientoAcademico.App.Dominio.Sugerencia", "Sugerencia")
-                        .WithMany()
-                        .HasForeignKey("SugerenciaId");
+                    b.HasOne("SeguimientoAcademico.App.Dominio.Estudiante", null)
+                        .WithMany("Historia")
+                        .HasForeignKey("EstudianteId");
+                });
 
+            modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Materia", b =>
+                {
+                    b.HasOne("SeguimientoAcademico.App.Dominio.Estudiante", null)
+                        .WithMany("MateriasInscritas")
+                        .HasForeignKey("EstudianteId");
+                });
+
+            modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Sugerencia", b =>
+                {
+                    b.HasOne("SeguimientoAcademico.App.Dominio.Historia", null)
+                        .WithMany("Sugerencia")
+                        .HasForeignKey("HistoriaId");
+                });
+
+            modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Historia", b =>
+                {
                     b.Navigation("Sugerencia");
                 });
 
             modelBuilder.Entity("SeguimientoAcademico.App.Dominio.Estudiante", b =>
                 {
-                    b.HasOne("SeguimientoAcademico.App.Dominio.FamiliarDesignado", "Familiar")
-                        .WithMany()
-                        .HasForeignKey("FamiliarId");
-
-                    b.HasOne("SeguimientoAcademico.App.Dominio.Historia", "Historia")
-                        .WithMany()
-                        .HasForeignKey("HistoriaId");
-
-                    b.HasOne("SeguimientoAcademico.App.Dominio.Maestro", "Maestro")
-                        .WithMany()
-                        .HasForeignKey("MaestroId");
-
-                    b.HasOne("SeguimientoAcademico.App.Dominio.Tutor", "Tutor")
-                        .WithMany()
-                        .HasForeignKey("TutorId");
-
-                    b.Navigation("Familiar");
-
                     b.Navigation("Historia");
 
-                    b.Navigation("Maestro");
-
-                    b.Navigation("Tutor");
+                    b.Navigation("MateriasInscritas");
                 });
 #pragma warning restore 612, 618
         }

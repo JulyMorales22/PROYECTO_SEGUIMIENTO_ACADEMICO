@@ -1,0 +1,43 @@
+﻿@page
+@using SeguimientoAcademico.App.Dominio
+@model SeguimientoAcademico.App.Presentacion.Pages.CrearTutoresModel
+@{
+}
+
+
+<h1>Crear Tutor </h1>
+
+<form method="post" class="scroll">  
+    <div class="form-group">
+    <label asp-for="tutor.Nombre"></label>
+    <input asp-for="tutor.Nombre" class="form-control" required="requiered">
+    
+    </div>
+
+    <div class="form-group">
+    <label asp-for="tutor.Apellido"></label>
+    <input asp-for="tutor.Apellido" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="tutor.Telefono"></label>
+    <input asp-for="tutor.Telefono" class="form-control" required="requiered">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="tutor.Genero"></label>
+    <select asp-for="tutor.Genero" asp-items="Html.GetEnumSelectList<Genero>()"class=form-control ></select>
+    </div>
+
+
+
+    <div class="form-group">
+    <label asp-for="tutor.MateriaAsignada"></label>
+    <input asp-for="tutor.MateriaAsignada" class="form-control" required="requiered">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+    
+
+</form>

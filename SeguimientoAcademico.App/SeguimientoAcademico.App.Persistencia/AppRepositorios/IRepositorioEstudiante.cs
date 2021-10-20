@@ -18,6 +18,8 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
     Estudiante GetEstudiante(int IdEstudiante);
 
     void AddHistoria (int IdEstudiante, Historia historia);
+
+    void AddMateria (int IdEstudiante, Materia materia);
     //void AddSugerencia_o_tareas(Sugerencia sugerencia, int IdEstudiante);
 
 

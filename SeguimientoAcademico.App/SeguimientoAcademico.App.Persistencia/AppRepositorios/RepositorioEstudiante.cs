@@ -108,5 +108,38 @@ namespace SeguimientoAcademico.App.Persistencia.AppRepositorios
 
             }
         }
+
+        void IRepositorioEstudiante.AddMateria(int IdEstudiante, Materia materia){
+
+             var estudiante= _appContext.Estudiantes.Find(IdEstudiante);
+            if(estudiante!=null){
+                if(estudiante.MateriasInscritas!=null){
+                    estudiante.MateriasInscritas.Add(materia);
+                }
+                else{
+                    estudiante.MateriasInscritas = new List<Materia>();
+                    estudiante.MateriasInscritas.Add(materia);
+                }
+            var estudianteEncontrado = _appContext.Estudiantes.FirstOrDefault(p => p.Id ==  estudiante.Id);
+            if (estudianteEncontrado!=null)
+            
+            {
+               estudianteEncontrado.Nombre=estudiante.Nombre;
+               estudianteEncontrado.Apellido=estudiante.Apellido;
+               estudianteEncontrado.Telefono=estudiante.Telefono;
+               estudianteEncontrado.Genero=estudiante.Genero;
+               estudianteEncontrado.MateriasInscritas=estudiante.MateriasInscritas;
+               estudianteEncontrado.Grado=estudiante.Grado;
+               estudianteEncontrado.Direccion=estudiante.Direccion;
+               estudianteEncontrado.Latitud=estudiante.Latitud;
+               estudianteEncontrado.Longitud=estudiante.Longitud;
+               estudianteEncontrado.Ciudad=estudiante.Ciudad;
+              
+
+               _appContext.SaveChanges();
+            }
+            
+    }
+}
     }
 }

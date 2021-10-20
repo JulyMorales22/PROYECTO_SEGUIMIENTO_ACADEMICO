@@ -71,7 +71,12 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  background-image: url(/img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
 }
 .footer {
   position: absolute;
@@ -91,4 +96,156 @@ body {
  
   height:900px;;
   width:100%;
+}
+
+
+
+/*ESTO ES LA FRONT*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cookie-container {
+  width: 100%;
+  position: relative;
+  background-color: #cbeefc;
+  padding: 15px 15px;
+  text-align: center;
+}
+.button {
+  background: transparent url(/img/icono-cerrar.png) no-repeat 0 -10px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  width: 85%;
+  max-width: 850px;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 190px;
+  top: 10px;
+  width: 14px;
+  height: 14px;
+}
+.icon-close{
+  display: block;
+}
+.cookie-container.show{
+  display: block;
+}
+h1{
+  color: rgb(22, 127, 231); 
+  font-family: Brush Script MT; 
+  font-size: 80px;
+  }
+img {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  }
+p{
+  text-align: justify;
+  line-height: 1.4rem; 
+  font-size: 1.2em; 
+  font-family: Verdana;
+  }
+.menu-icon{
+  display: none;
+  }
+.navigation{
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(16, 16, 180);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.navigation a{
+  color: rgb(102, 172, 241);
+  font-weight: bold;
+  text-decoration: underline;
+  }
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+.navigation ul li{
+  display: inline-block;
+  }
+.navigation ul li a{
+  display: block;
+  padding: 1rem 4rem 1rem 4rem;
+  transition: all 0.2s linear;
+  }
+.navigation ul li a:hover{
+  background: rgb(126, 198, 226);
+  color: black;
+  }
+.container{
+  padding: 0rem 20rem 0rem 2rem;
+  flex-wrap: wrap;
+  }
+.contenedor-principal{
+  padding: 30px 0px;
+  width: 95%;
+  max-width: 850px;
+  margin: auto;
+  overflow: hidden;
+  }
+.principal{
+  display: flex;
+  justify-content: space-evenly;
+  background-image:url();
+  background-size:auto;
+  background-repeat:no-repeat;
+  background-position: center center;
+  }
+.imagen-principal{
+  padding-top: 8rem;
+  width: 30%;
+  height: 25%;
+}
+.cont-principal .contenedor-textos{
+  width: 48%;
+  padding-top: 3rem;
+  padding-bottom: 30rem;
+}
+.logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+@media only screen and (max-width:767px)
+{
+  .menu-icon{
+      display: block;
+      cursor: pointer;
+      padding:0.5rem 1rem;
+      }
+  .navigation ul{
+      display: none;
+      }
+  .navigation ul.show{
+      display: block;
+      }
+  .navigation{
+      width: 100%;
+      background-color: rgb(16, 16, 180);
+      color: darkseagreen;
+      margin-top: 1rem;
+      }
+  .navigation ul li{
+      display: block;
+      }
+  .navigation ul li a{
+      display: block;
+      padding: 0.5rem 0;
+      transition: all 0.3s linear;
+      }
+  .navigation ul li a:hover{
+      background: rgb(109, 218, 226);
+      }
 }

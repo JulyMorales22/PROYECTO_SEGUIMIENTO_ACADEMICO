@@ -14402,6 +14402,11 @@
   "RootNamespace": "SeguimientoAcademico.App.Presentacion",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Estudiantes\\RegistrarActividad.cshtml",
       "TargetPath": "Pages\\Estudiantes\\RegistrarActividad.cshtml",
       "FileKind": "mvc"
@@ -14412,8 +14417,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14429,6 +14444,11 @@
     {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Maestros\\ActualizarMaestros.cshtml",
       "TargetPath": "Pages\\Maestros\\ActualizarMaestros.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14452,18 +14472,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Tutor\\EliminarTutor.cshtml",
-      "TargetPath": "Pages\\Tutor\\EliminarTutor.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Maestros\\IndexMaestros.cshtml",
       "TargetPath": "Pages\\Maestros\\IndexMaestros.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Tutor\\CrearTutor.cshtml",
-      "TargetPath": "Pages\\Tutor\\CrearTutor.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14487,6 +14497,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Estudiantes\\Eliminar.cshtml",
       "TargetPath": "Pages\\Estudiantes\\Eliminar.cshtml",
       "FileKind": "mvc"
@@ -14507,18 +14522,28 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Tutor\\IndexTutor.cshtml",
-      "TargetPath": "Pages\\Tutor\\IndexTutor.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Maestros\\EliminarMaestros.cshtml",
       "TargetPath": "Pages\\Maestros\\EliminarMaestros.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Tutores\\EliminarTutores.cshtml",
       "TargetPath": "Pages\\Tutores\\EliminarTutores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14529,11 +14554,6 @@
     {
       "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Estudiantes\\AsignarFamiliar.cshtml",
       "TargetPath": "Pages\\Estudiantes\\AsignarFamiliar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JIMMY SARMIENTO\\Documents\\GitHub\\PROYECTO_SEGUIMIENTO_ACADEMICO\\SeguimientoAcademico.App\\SeguimientoAcademico.App.Presentacion\\Pages\\Tutor\\ActualizarTutor.cshtml",
-      "TargetPath": "Pages\\Tutor\\ActualizarTutor.cshtml",
       "FileKind": "mvc"
     }
   ],

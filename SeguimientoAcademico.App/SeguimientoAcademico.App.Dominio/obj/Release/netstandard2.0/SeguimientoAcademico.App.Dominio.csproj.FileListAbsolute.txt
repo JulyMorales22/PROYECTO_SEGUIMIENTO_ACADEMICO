@@ -1,0 +1,10 @@
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\bin\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.deps.json
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\bin\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.dll
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\bin\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.pdb
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.AssemblyInfo.cs
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.dll
+C:\Users\JIMMY SARMIENTO\Documents\GitHub\PROYECTO_SEGUIMIENTO_ACADEMICO\SeguimientoAcademico.App\SeguimientoAcademico.App.Dominio\obj\Release\netstandard2.0\SeguimientoAcademico.App.Dominio.pdb

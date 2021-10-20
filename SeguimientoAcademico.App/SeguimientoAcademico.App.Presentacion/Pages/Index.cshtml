@@ -12,7 +12,11 @@
         <h1 class="display-4">Bienvenido a Seguimiento Academico <br><br><br></h1>
     </div>
     
-    <h4 align=left>
+     <section class="contenedor cont-principal">
+        <div class="principal">
+            <img src="/img/img2.png" alt="" class="imagen-principal">
+            <div class="contenedor-textos">
+            <p>
                 El acceso a la educación es uno de los principales derechos sobre los que se soportan 
                 los principios de universalidad y equidad. Sin embargo, en los últimos años la demanda 
                 de educación virtual ha ido en aumento y la demanda de se ha hecho aún más visible 
@@ -28,11 +32,40 @@
                 materias desde sus hogares y así favorecer una mejor estrategia dinámica en el proceso 
                 educativo teniendo a la familia más que como responsables como un apoyo y a un equipo 
                 de docentes como responsables de la evolución y apropiación del conocimiento de manera virtual.
-    <br><br><br></h4>
-     <div >
-    <img align=left  style="border-radius: 20px;" src="https://storage.googleapis.com/site.esss.co/43dced96-2017-03-29-thumb-software-estudantes.jpg"  width="380" height="320" ></img>
-    </div>
+            </p>
+            </div>
+        </div>
+    </section>
 
+
+<footer>
+        <div class="footer">
+            <h4 style="text-align: center;">© 2021 The programmers. Todos los derechos reservados.</h4>
+        </div>
+    </footer>
+    <script>
+        var menuBtn = $('.menu-icon'),
+            menu = $('.navigation ul')
+
+        menuBtn.click(function(){
+            if(menu.hasClass('show'))
+            {
+                menu.removeClass('show');
+            }
+            else
+            {
+                menu.addClass('show');
+            }
+        })
+        var closeBtn = $('.icon-close'),
+            close = $('.cookie-container')
+            closeBtn.click(function(){
+            if(close.hasClass('show'))
+            {
+                close.removeClass('show');
+            }
+        })
+    </script>
 
 </body>
 
